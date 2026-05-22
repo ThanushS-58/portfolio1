@@ -9,6 +9,7 @@
     "start": "cross-env NODE_ENV=production node dist/index.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist/public",
+    "postbuild": "node ./scripts/copy-404.js",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
