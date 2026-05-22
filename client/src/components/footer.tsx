@@ -18,10 +18,12 @@ export default function Footer() {
 
   const services = [
     "Business Analysis",
-    "Data Analytics", 
-    "Power BI Development",
-    "Process Optimization",
-    "KPI Reporting",
+    "Data Migration",
+    "Regulatory Reporting",
+    "Data Validation & Reconciliation",
+    "Stakeholder Management",
+    "SIT/UAT Coordination",
+    "Master Data Management (MDM)",
   ];
 
   const socialLinks = [
@@ -37,7 +39,7 @@ export default function Footer() {
               <span className="text-2xl font-bold text-white">Manoj Srinivasan</span>
             </div>
             <p className="text-slate-400 mb-4">
-              Transforming data into business value through analytics, insights, and automation.
+              Delivering enterprise transformation solutions through Business Analysis, Data Migration, Regulatory Reporting, and Data Governance expertise.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => {
@@ -86,7 +88,7 @@ export default function Footer() {
 
         <div className="border-t border-slate-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-slate-400 text-sm">
-            © 2024 Manoj Srinivasan. All rights reserved.
+            © 2026 Manoj Srinivasan. All rights reserved.
           </div>
           <div className="text-slate-400 text-sm mt-4 md:mt-0">
             Built with modern web technologies

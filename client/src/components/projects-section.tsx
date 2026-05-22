@@ -3,76 +3,56 @@ import { Settings, PieChart, Users, Rocket, Shield, Cloud } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "ETL Pipeline Optimization",
-      description: "Streamlined data processing workflows for improved efficiency",
-      icon: Settings,
+      title: "Oracle to AWS Migration Program",
+      description:
+        "Enterprise-scale migration initiative involving regulatory reporting, SQL-based reconciliation, data validation, governance, STTM mapping, and cutover readiness activities.",
+      icon: Cloud,
       color: "primary",
       metrics: [
-        { label: "Processing Time Reduction", value: "40%" },
-        { label: "Data Accuracy Improvement", value: "25%" },
-        { label: "Infrastructure Cost Reduction", value: "20%" },
+        { label: "Datasets Validated", value: "100+" },
+        { label: "Data Quality Improvement", value: "20%" },
+        { label: "Faster Development Readiness", value: "30%" },
       ],
-      technologies: ["SQL", "AWS Glue", "Python"],
+      technologies: ["Oracle", "AWS Glue", "SQL", "Informatica"],
     },
     {
-      title: "Power BI Dashboard Suite",
-      description: "Comprehensive KPI tracking and financial reporting system",
+      title: "Insurance Reporting Transformation",
+      description:
+        "Standardized reporting framework across insurance operations improving audit readiness, reporting consistency, and governance compliance.",
       icon: PieChart,
       color: "secondary",
       metrics: [
-        { label: "Ad Spend Tracking", value: "$5M+" },
-        { label: "Reporting Time Reduction", value: "30%" },
-        { label: "User Adoption Rate", value: "95%" },
+        { label: "Manual Reporting Reduction", value: "30%" },
+        { label: "Audit Readiness Improvement", value: "25%" },
+        { label: "Operational Efficiency", value: "20%" },
       ],
-      technologies: ["Power BI", "Power Query", "DAX"],
+      technologies: ["Power BI", "SQL", "Tableau", "Reporting Governance"],
     },
     {
-      title: "CRM System Implementation", 
-      description: "End-to-end customer relationship management solution",
-      icon: Users,
-      color: "success",
-      metrics: [
-        { label: "Customer Churn Reduction", value: "15%" },
-        { label: "Sales Team Efficiency", value: "30%" },
-        { label: "Customer Satisfaction", value: "75%" },
-      ],
-      technologies: ["CRM", "Automation", "Analytics"],
-    },
-    {
-      title: "Process Optimization Initiative",
-      description: "Business process analysis and automation implementation",
-      icon: Rocket,
+      title: "Master Data Management Initiative",
+      description:
+        "Designed MDM hierarchy structures and supported golden record creation improving reporting consistency and reducing enterprise data duplication.",
+      icon: Settings,
       color: "accent",
       metrics: [
-        { label: "Productivity Increase", value: "25%" },
-        { label: "Manual Effort Reduction", value: "15hrs/week" },
-        { label: "Process Success Rate", value: "98%" },
+        { label: "Duplicate Record Reduction", value: "30%" },
+        { label: "Reporting Accuracy", value: "20%" },
+        { label: "Data Consistency", value: "98%" },
       ],
-      technologies: ["Process Analysis", "Automation", "Agile"],
+      technologies: ["MDM", "SQL", "Data Governance", "Data Quality"],
     },
     {
-      title: "Data Quality Framework",
-      description: "Automated validation and data governance implementation",
+      title: "Regulatory Reporting & Validation Framework",
+      description:
+        "Implemented SQL-based validation and reconciliation processes supporting enterprise regulatory reporting and governance requirements.",
       icon: Shield,
-      color: "primary",
+      color: "success",
       metrics: [
-        { label: "Data Accuracy", value: "99%" },
-        { label: "Validation Checks", value: "30+" },
-        { label: "Manual Intervention", value: "-75%" },
+        { label: "Validation Checks", value: "100+" },
+        { label: "Validation Efficiency", value: "25%" },
+        { label: "Reduced Migration Defects", value: "20%" },
       ],
-      technologies: ["Data Quality", "Validation", "Governance"],
-    },
-    {
-      title: "Cloud Data Migration",
-      description: "Scalable cloud-based data solutions deployment",
-      icon: Cloud,
-      color: "secondary",
-      metrics: [
-        { label: "Infrastructure Cost Reduction", value: "20%" },
-        { label: "Data Volume Support", value: "+50%" },
-        { label: "System Uptime", value: "99.9%" },
-      ],
-      technologies: ["AWS", "Cloud Migration", "Snowflake"],
+      technologies: ["SQL", "Validation", "Reconciliation", "Compliance"],
     },
   ];
 
@@ -80,9 +60,9 @@ export default function ProjectsSection() {
     <section id="projects" className="py-16 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Key Projects & Achievements</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Enterprise Transformation Projects</h2>
           <p className="text-lg text-slate-600">
-            Quantifiable results from data-driven initiatives
+            Large-scale BFSI, Insurance, and Data Migration initiatives delivering measurable business impact
           </p>
         </div>
 

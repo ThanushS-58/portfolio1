@@ -1,7 +1,7 @@
 import { Mail, Phone, MapPin, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
-import profileImage from "@assets/1702017134417_1751303201057.jfif";
+import profileImage from "@assets/1702017134417_1751303201057.png";
 
 export default function HeroSection() {
   const { toast } = useToast();
@@ -26,33 +26,34 @@ export default function HeroSection() {
               <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-4">
                 Manoj Srinivasan
               </h1>
-              <p className="text-xl lg:text-2xl text-primary font-medium mb-4">
-                Business Analyst | Data & Operations Analyst | Power BI Developer
+              <p className="text-xl lg:text-2xl text-primary font-medium mb-3">
+                Business Analyst | BFSI & Insurance Domain Specialist | Data Migration Expert
               </p>
-              <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                Driving KPI Reporting, Process Optimization & Strategic Insights in BFSI Domain
+              <p className="text-lg text-slate-600 leading-relaxed max-w-2xl mb-4">
+                Driving Enterprise Data Migration, Regulatory Reporting & Business Transformation Solutions
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <Button 
                 onClick={handleLinkedInClick}
-                className="bg-primary hover:bg-secondary text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center gap-2"
+                className="bg-primary hover:bg-secondary text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center gap-2"
               >
                 <ExternalLink className="w-4 h-4" />
                 View LinkedIn Profile
               </Button>
+              
               <Button 
                 variant="outline"
                 onClick={scrollToContact}
-                className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center gap-2"
+                className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center gap-2"
               >
                 <Mail className="w-4 h-4" />
                 Get In Touch
               </Button>
             </div>
 
-            <div className="flex flex-wrap gap-6 justify-center lg:justify-start text-slate-600">
+            <div className="flex flex-wrap gap-6 justify-center lg:justify-start text-black">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
                 <span>Bengaluru, Karnataka, India</span>
@@ -66,6 +67,7 @@ export default function HeroSection() {
                 <span>manojsrinivasan3473@gmail.com</span>
               </a>
             </div>
+              
           </div>
 
           <div className="flex-1 flex justify-center lg:justify-end">
@@ -73,12 +75,13 @@ export default function HeroSection() {
               <div className="w-80 h-80 rounded-2xl shadow-2xl overflow-hidden">
                 <img 
                   src={profileImage} 
-                  alt="Manoj Srinivasan - Business Analyst and Data Expert"
+                  alt="Manoj Srinivasan - Business Analyst and Enterprise Data Migration Specialist"
                   className="w-full h-full object-cover"
+                  style={{ objectPosition: '20% 25%' }}
                 />
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-success text-white px-4 py-2 rounded-lg shadow-lg">
-                <span className="font-medium">4+ Years Experience</span>
+              <div className="absolute -bottom-4 -right-6 bg-white px-4 py-2 rounded-lg shadow-lg">
+                <span className="font-medium text-black">3.5+ Years Experience</span>
               </div>
             </div>
           </div>
