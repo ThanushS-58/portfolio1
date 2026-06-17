@@ -773,11 +773,25 @@
       .project-link {
         display: inline-block;
         margin-top: 1rem;
+        margin-right: 1.5rem;
         color: var(--accent);
         text-decoration: none;
         font-weight: 600;
         font-size: 0.9rem;
         transition: color 0.3s ease;
+      }
+
+      .project-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+
+      .project-links a {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
       }
 
       body.dark-mode .project-link {
@@ -1642,7 +1656,10 @@
                 <span class="tag">Flask</span>
                 <span class="tag">SQLite</span>
               </div>
-              <a href="https://github.com/ThanushS-58/Mediplant-Ai-System" target="_blank" class="project-link">View on GitHub →</a>
+              <div class="project-links">
+                <a href="https://github.com/ThanushS-58/Mediplant-Ai-System" target="_blank" class="project-link">🔗 GitHub</a>
+                <a href="https://mediplant-ai-system.vercel.app/" target="_blank" class="project-link">🚀 Live Demo</a>
+              </div>
             </div>
           </div>
 
@@ -1658,7 +1675,10 @@
                 <span class="tag">Laravel</span>
                 <span class="tag">MySQL</span>
               </div>
-              <a href="https://github.com/ThanushS-58/AI-Resume-Screening-System-" target="_blank" class="project-link">View on GitHub →</a>
+              <div class="project-links">
+                <a href="https://github.com/ThanushS-58/AI-Resume-Screening-System-" target="_blank" class="project-link">🔗 GitHub</a>
+                <a href="https://ai-resume-screening-system-production-c554.up.railway.app/" target="_blank" class="project-link">🚀 Live Demo</a>
+              </div>
             </div>
           </div>
 
@@ -1674,7 +1694,10 @@
                 <span class="tag">Streamlit</span>
                 <span class="tag">Analytics</span>
               </div>
-              <a href="https://github.com/ThanushS-58/Text-Analytics-in-IT-Job-Demands" target="_blank" class="project-link">View on GitHub →</a>
+              <div class="project-links">
+                <a href="https://github.com/ThanushS-58/Text-Analytics-in-IT-Job-Demands" target="_blank" class="project-link">🔗 GitHub</a>
+                <a href="https://text-analytics-in-it-job-demands-tvpt8mmdspinnauh797qzn.streamlit.app/" target="_blank" class="project-link">🚀 Live Demo</a>
+              </div>
             </div>
           </div>
         </div>
